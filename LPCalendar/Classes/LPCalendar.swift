@@ -530,7 +530,6 @@ class LPCalendarManager: NSObject {
         dateFormatter = NSDateFormatter()
         pickerDate = startDate
         self.startDate = dateToInterval(componentsToDate(dateToComponents(startDate)))
-        print("managerStartDate\(self.startDate)")
     }
     
     /**

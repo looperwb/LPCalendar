@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0B01971D1836A10058CEFD /* LPCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B01961D1836A10058CEFD /* LPCalendar.swift */; };
 		DFC177111D1525F200965C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC177101D1525F200965C95 /* AppDelegate.swift */; };
 		DFC177131D1525F200965C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC177121D1525F200965C95 /* ViewController.swift */; };
 		DFC177161D1525F200965C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC177141D1525F200965C95 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		DFC1771B1D1525F200965C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC177191D1525F200965C95 /* LaunchScreen.storyboard */; };
 		DFC177261D1525F200965C95 /* LPCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC177251D1525F200965C95 /* LPCalendarTests.swift */; };
 		DFC177311D1525F200965C95 /* LPCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC177301D1525F200965C95 /* LPCalendarUITests.swift */; };
-		DFC1773F1D15265D00965C95 /* LPCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1773E1D15265D00965C95 /* LPCalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF0B01961D1836A10058CEFD /* LPCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPCalendar.swift; sourceTree = "<group>"; };
 		DFC1770D1D1525F200965C95 /* LPCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC177101D1525F200965C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFC177121D1525F200965C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		DFC1772C1D1525F200965C95 /* LPCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC177301D1525F200965C95 /* LPCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCalendarUITests.swift; sourceTree = "<group>"; };
 		DFC177321D1525F200965C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFC1773E1D15265D00965C95 /* LPCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPCalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF0B01951D1836A10058CEFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B01961D1836A10058CEFD /* LPCalendar.swift */,
+			);
+			name = Classes;
+			path = LPCalendar/Classes;
+			sourceTree = "<group>";
+		};
 		DFC177041D1525F200965C95 = {
 			isa = PBXGroup;
 			children = (
+				DF0B01951D1836A10058CEFD /* Classes */,
 				DFC1770F1D1525F200965C95 /* LPCalendar */,
 				DFC177241D1525F200965C95 /* LPCalendarTests */,
 				DFC1772F1D1525F200965C95 /* LPCalendarUITests */,
@@ -101,7 +111,6 @@
 			children = (
 				DFC177101D1525F200965C95 /* AppDelegate.swift */,
 				DFC177121D1525F200965C95 /* ViewController.swift */,
-				DFC1773E1D15265D00965C95 /* LPCalendar.swift */,
 				DFC177141D1525F200965C95 /* Main.storyboard */,
 				DFC177171D1525F200965C95 /* Assets.xcassets */,
 				DFC177191D1525F200965C95 /* LaunchScreen.storyboard */,
@@ -260,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0B01971D1836A10058CEFD /* LPCalendar.swift in Sources */,
 				DFC177131D1525F200965C95 /* ViewController.swift in Sources */,
-				DFC1773F1D15265D00965C95 /* LPCalendar.swift in Sources */,
 				DFC177111D1525F200965C95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
